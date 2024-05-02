@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
 public class ContaTerminal {
-    public static void main(String[] args) throws Exception {
-        
-        /** TODO: Conhecer e importar a classe Scanner
+
+    /** TODO: Conhecer e importar a classe Scanner
         // Exibir as mensagens para o nosso usuário
         // Obter pela Scanner os valores digitados no terminal
          Exibir a mensagem conta criada*/
 
+    public static void main(String[] args) throws Exception {
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Bem-vindo(a) à página de cadastro do Luk's Bank's");
