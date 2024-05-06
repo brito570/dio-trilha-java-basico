@@ -16,7 +16,7 @@ public class Contador {
 			contar(parametroUm, parametroDois);
 		
 		}catch (ParametrosInvalidosException exception) {
-           
+			System.out.println("O segundo parâmetro deve ser maior que o primeiro");
 		}
 	
         terminal.close();
@@ -29,8 +29,8 @@ public class Contador {
         for(int a = 0; a <= contagem ; a++ ){
             System.out.println("imprimindo o número " + a);
             }
-        }else {
-            System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+        } else {throw new ParametrosInvalidosException();
+            
         }
             
     }
